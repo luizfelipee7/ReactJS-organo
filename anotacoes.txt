@@ -1,0 +1,48 @@
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/luizfelipee7
+git push -u origin main
+
+.banner
+{
+    background-color: var(--cor_principal_1);
+    text-align: center;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+:root
+{
+    --cor_principal_1: #6278F7;
+    --cor_principal_2: #95FFD4;
+    --cor_principal_3: #F2F2F2;
+    --fundo_1: #D9F7E9;
+    --fundo_2: #E8F8FF;
+    --fundo_3: #F0F8E2;
+    --fundo_4: #FDE7E8;
+    --fundo_5: #FAE9F5;
+    --fundo_6: #FFF5D9;
+    --fundo_7: #FFEEDF;
+
+    --destaque_programacao: #57C278;
+    --destaque_front_end: #82CFFA;
+    --destaque_data_science: #A6D157;
+    --destaque_devops: #E06B69;
+    --destaque_ux_design: #DB6EBF;
+    --destaque_mobile: #FFBA05;
+    --destaque_inovacao_gestao: #FF8A29;
+    
+
+    
+    /* --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'beba';
+    --fonte-android: 'idroid'; */
+
+}
+
+ <label for="iuser">Usuario:</label>
+        <input type="text" name="user" id="iuser" required minlength="5" maxlength="15" size="10" placeholder="nome do usuario" autocomplete="username">
