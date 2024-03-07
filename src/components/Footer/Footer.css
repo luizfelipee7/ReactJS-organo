@@ -1,0 +1,11 @@
+.footer {
+    background-color: var(--cor_principal_1);
+    
+
+
+}
+
+.footer img {
+    position: relative;
+    text-align: center;
+}
