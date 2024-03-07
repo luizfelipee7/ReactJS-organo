@@ -1,11 +1,19 @@
+
 .footer {
-    background-color: var(--cor_principal_1);
     
-
-
+    background: #6278F7;
+    color: #FFF;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.footer img {
-    position: relative;
-    text-align: center;
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
 }
